@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f4f5f7"
+    tools:context=".MainActivity">
+    <com.example.qmuitest.ui.ZMConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="24dp"
+        android:background="@android:color/white"
+        app:qmui_radius="20dp"
+        app:qmui_shadowElevation="8dp"
+        app:qmui_shadowColor="#cccccc"
+        app:qmui_shadowAlpha="0.86">
+
+    </com.example.qmuitest.ui.ZMConstraintLayout>
+</LinearLayout>
